@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Population of...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="userPanel"><i class="fa fa-users fa-5x"></i>
+	<h1> Population of... </h1>
+	<select id="countryList" ></select>
+	<select id="month">
+		<option value = "01" >Jan</option>
+		<option value = "02">Feb</option>
+		<option value = "03">Mar</option>
+		<option value = "04"selected>Apr</option>
+		<option value = "05">May</option>
+		<option value = "06">Jun</option>
+		<option value = "07">Jul</option>
+		<option value = "08">Aug</option>
+		<option value = "09">Sept</option>
+		<option value = "10">Oct</option>
+		<option value = "11">Nov</option>
+		<option value = "12">Dec</option>
+  </select>
+	<select id="year">
+		<option value = "2013" >2013</option>
+		<option value = "2014" >2014</option>
+		<option value = "2015"selected >2015</option>
+		<option value = "2016" >2016</option>
+		<option value = "2017" >2017</option>
+		<option value = "2018" >2018</option>
+		<option value = "2019" >2019</option>
+		<option value = "2020" >2020</option>
+		<option value = "2021" >2021</option>
+		<option value = "2022" >2022</option>
+	</select>
+</div>
+
+
+<div class="output">
+	<span class="section1 label"></span>
+	<hr>
+	<span id="countOn" class="content"></span>
+	<hr>
+	<span class="section2 label"></span>
+	<hr>
+	<span id="currentCount" class="content"></span>
+</div>
+
+
+<footer>
+	<p> Data provided by: <a href="http://api.population.io/ " target="_blank"> World Population API </a></p>
+	<p> Counter provided by : <a href="http://inorganik.github.io/countUp.js/" target="_blank"> CountUp.js </a></p>
+	<p> Check me out: <a href="http://gordosan.github.io/" target="_blank"> http://gordosan.github.io/ </a></p>
+</footer>
+
+<div class = "overlay"></div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+<script src='http://cdn.jsdelivr.net/countupjs/1.1.0/countUp.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
